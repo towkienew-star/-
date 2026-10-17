@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "towkiemorphs",
+  "version": "${version}",
+  "name": "Towkie Morphs",
+  "description": "Client-side player model size editor. Press J to edit individual players.",
+  "authors": ["towkie"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.towkie.morph.TowkieMorphsClient"]
+  },
+  "mixins": ["towkiemorphs.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "=1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
